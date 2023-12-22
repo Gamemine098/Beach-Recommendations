@@ -3919,6 +3919,26 @@ html {
   z-index: 1;
 }
 
+.z-10 {
+  z-index: 10;
+}
+
+.-z-10 {
+  z-index: -10;
+}
+
+.z-\[\] {
+  z-index: ;
+}
+
+.z-\[-2\] {
+  z-index: -2;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
 .mt-3 {
   margin-top: 0.75rem;
 }
@@ -4079,6 +4099,22 @@ html {
 
 .pr-1 {
   padding-right: 0.25rem;
+}
+
+.pr-0 {
+  padding-right: 0px;
+}
+
+.pl-1 {
+  padding-left: 0.25rem;
+}
+
+.pr-0\.5 {
+  padding-right: 0.125rem;
+}
+
+.pl-2 {
+  padding-left: 0.5rem;
 }
 
 .text-center {
