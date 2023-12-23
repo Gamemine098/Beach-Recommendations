@@ -6,16 +6,8 @@
 
     <!-- stylesheet -->
     <link rel="stylesheet" href="../dist/output.css" />
-    <link rel="icon" href="../icon/SunSplash - Logo.png">
-
-    <!-- style -->
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
-      * {
-        font-family: "Prompt", sans-serif;
-        scroll-behavior: smooth;
-      }
-    </style>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="../icon/SunSplash - Logo.png" />
 
     <title>Home</title>
   </head>
@@ -135,7 +127,22 @@
       </nav>
       <nav>
         <div class="grid grid-flow-col gap-4">
-          <a href="https://github.com/Gamemine098" target="_blank">
+          <a onclick="my_modal_5.showModal()">
+            <!-- Open the modal using ID.showModal() method -->
+            <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+              <div class="modal-box">
+                <h3 class="text-lg font-bold">Hello!</h3>
+                <p class="py-4">
+                  Press ESC key or click the button below to close
+                </p>
+                <div class="modal-action">
+                  <form method="dialog">
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button class="btn">Close</button>
+                  </form>
+                </div>
+              </div>
+            </dialog>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="24"

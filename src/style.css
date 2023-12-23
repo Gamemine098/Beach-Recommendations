@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
+* {
+  font-family: "Prompt", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Hide scrollbar track for a cleaner look */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Style scrollbar thumb with a thin, gray appearance */
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  width: 8px;
+}
