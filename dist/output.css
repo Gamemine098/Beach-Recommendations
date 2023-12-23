@@ -3796,6 +3796,16 @@ html {
   animation: modal-pop 0.2s ease-out;
 }
 
+.modal-backdrop {
+  z-index: -1;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  display: grid;
+  align-self: stretch;
+  justify-self: stretch;
+  color: transparent;
+}
+
 .modal-open .modal-box,
 .modal-toggle:checked + .modal .modal-box,
 .modal:target .modal-box,
@@ -3918,6 +3928,10 @@ html {
     transform: scale(1);
     opacity: 1;
   }
+}
+
+.modal-middle {
+  place-items: center;
 }
 
 .modal-bottom {
@@ -4119,6 +4133,11 @@ html {
   padding-bottom: 1rem;
 }
 
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .pl-3 {
   padding-left: 0.75rem;
 }
@@ -4133,6 +4152,10 @@ html {
 
 .pr-3 {
   padding-right: 0.75rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
 }
 
 .text-center {
@@ -4176,6 +4199,16 @@ html {
 .text-secondary {
   --tw-text-opacity: 1;
   color: var(--fallback-s,oklch(var(--s)/var(--tw-text-opacity)));
+}
+
+.text-warning {
+  --tw-text-opacity: 1;
+  color: var(--fallback-wa,oklch(var(--wa)/var(--tw-text-opacity)));
+}
+
+.text-error {
+  --tw-text-opacity: 1;
+  color: var(--fallback-er,oklch(var(--er)/var(--tw-text-opacity)));
 }
 
 .underline {
