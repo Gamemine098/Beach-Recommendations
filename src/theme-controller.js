@@ -1,12 +1,10 @@
-const checkbox = document.getElementById('theme-controller');
+const checkbox = document.getElementById("theme-controller");
 
 // Save checkbox state on change
-checkbox.addEventListener('change', (event) => {
-    localStorage.setItem('theme-controller_state', event.target.checked);
+checkbox.addEventListener("change", (event) => {
+  localStorage.setItem("theme", event.target.checked ? "dark" : "light");  // Store "dark" or "light"
 });
 
 // Restore checkbox state on page load
-const savedState = localStorage.getItem('theme-controller_state');
-if (savedState === 'true') {
-    checkbox.checked = true;
-}
+const savedState = localStorage.getItem("theme");
+checkbox.checked = savedState === "dark";  // Set checkbox based on saved state
