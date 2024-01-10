@@ -34,6 +34,16 @@
     var(--tw-backdrop-sepia);
 }
 
+.card.image-full:before {
+  position: relative;
+  content: "";
+  z-index: 10;
+  border-radius: var(--rounded-box, 1rem/* 16px */);
+  --tw-bg-opacity: 1;
+  background-color: var(--fallback-n,oklch(var(--n)/var(--tw-bg-opacity)));
+  opacity: 0.50;
+}
+
 .text-shadow-1 {
   text-shadow: 1px 1px rgba(0, 0, 0, 0.35);
 }
