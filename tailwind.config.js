@@ -7,7 +7,7 @@ module.exports = {
   daisyui: {
     themes: [
       {
-        emerald: {
+        emerald: { // light
           ...require("daisyui/src/theming/themes")["emerald"],
           "--rounded-box": "1rem",
           "--rounded-btn": "0.5rem",
@@ -16,7 +16,7 @@ module.exports = {
           "--tab-border": "1px",
           "--tab-radius": "0.5rem",
         },
-        sunset: {
+        sunset: { // dark
           ...require("daisyui/src/theming/themes")["sunset"],
           "--rounded-box": "1rem",
           "--rounded-btn": "0.5rem",
