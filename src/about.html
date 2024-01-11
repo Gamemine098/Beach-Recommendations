@@ -13,7 +13,7 @@
   </head>
   <body>
     <!-- navbar -->
-    <div class="navbar bg-base-100 shadow-lg">
+    <div class="fixed-important navbar z-50 bg-base-100 shadow-lg">
       <div class="navbar-start">
         <details class="dropdown">
           <summary class="btn m-1">
@@ -38,7 +38,7 @@
             <li class="text-secondary"><a href="./index.html">Homepage</a></li>
             <li class="text-secondary"><a href="./content.html">Content</a></li>
             <li class="text-secondary"><a href="./contact.html">Contact</a></li>
-            <li class="text-primary"><a href="./about.html">About</a></li>
+            <li class="text-primary"><a href="#">About</a></li>
           </ul>
         </details>
         <div class="avatar pl-3 pr-0.5">
@@ -49,13 +49,38 @@
           </div>
         </div>
         <a
-          class="btn btn-ghost px-2 text-3xl text-primary underline underline-offset-2"
+          class="btn btn-ghost mx-3 px-2 text-3xl text-primary underline underline-offset-2"
           href="./index.html"
           >SunSplash</a
         >
       </div>
       <div class="navbar-end">
-        <label class="swap swap-rotate pr-3">
+        <a
+          class="tooltip tooltip-left tooltip-primary mr-5 text-primary"
+          data-tip="By Tanakorn Meesarp"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- ez dark mode toggle -->
+    <div class="fixed-important bottom-0-important right-0-important">
+      <div class="btn btn-sm my-5 mb-3 mr-3 h-12 shadow-lg">
+        <label class="swap swap-rotate">
           <!-- this hidden checkbox controls the state -->
           <input
             type="checkbox"
