@@ -13,7 +13,7 @@
   </head>
   <body>
     <!-- navbar -->
-    <div class="navbar bg-base-100 shadow-lg">
+    <div class="navbar bg-base-100 shadow-lg fixed-important z-50">
       <div class="navbar-start">
         <details class="dropdown">
           <summary class="btn m-1">
@@ -49,13 +49,18 @@
           </div>
         </div>
         <a
-          class="btn btn-ghost px-2 text-3xl text-primary underline underline-offset-2"
+          class="btn btn-ghost mx-3 px-2 text-3xl text-primary underline underline-offset-2"
           href="#"
           >SunSplash</a
         >
       </div>
-      <div class="navbar-end">
-        <label class="swap swap-rotate pr-3">
+      <div class="navbar-end"></div>
+    </div>
+
+    <!-- ez dark mode toggle -->
+    <div class="fixed-important bottom-0-important right-0-important">
+      <div class="btn btn-sm my-5 mb-3 mr-3 h-12 shadow-lg">
+        <label class="swap swap-rotate">
           <!-- this hidden checkbox controls the state -->
           <input
             type="checkbox"
@@ -139,6 +144,7 @@
         <figure>
           <img
             src="https://img.wongnai.com/p/800x0/2022/04/28/3bc05ca8be894484a693fbdb8e4dd82d.jpg"
+            loading="lazy"
             class="h-72"
           />
         </figure>
@@ -153,6 +159,7 @@
         <figure>
           <img
             src="https://img.wongnai.com/p/800x0/2022/04/27/45bf151298654572bb17eb14441571eb.jpg"
+            loading="lazy"
             class="h-72"
           />
         </figure>
@@ -167,6 +174,7 @@
         <figure>
           <img
             src="https://img.wongnai.com/p/800x0/2022/04/27/e5aefd798176439d8c63113398b4abe1.jpg"
+            loading="lazy"
             class="h-72"
           />
         </figure>

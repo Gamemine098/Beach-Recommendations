@@ -5,16 +5,18 @@
   scroll-behavior: smooth;
 }
 
-/* Hide scrollbar track for a cleaner look */
-::-webkit-scrollbar-track {
-  background-color: transparent;
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: opacity 0.2s;
 }
 
-/* Style scrollbar thumb with a thin, gray appearance */
+::-webkit-scrollbar:hover {
+  opacity: 1;
+}
+
 ::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  width: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .glass-blur {
@@ -62,4 +64,16 @@
 
 .text-shadow-5 {
   text-shadow: 5px 5px rgba(0, 0, 0, 0.35);
+}
+
+.bottom-0-important {
+  bottom: 0px !important;
+}
+
+.right-0-important {
+  right: 0px !important;
+}
+
+.fixed-important {
+  position: fixed !important;
 }
