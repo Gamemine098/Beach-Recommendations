@@ -77,3 +77,7 @@
 .fixed-important {
   position: fixed !important;
 }
+
+#Theme {
+  z-index: 99999;
+}
