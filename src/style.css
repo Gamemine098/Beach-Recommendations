@@ -81,3 +81,12 @@
 #Theme {
   z-index: 99999;
 }
+
+#Contact_Hover {
+  transition: 0.25s ease-in-out;
+}
+
+#Contact_Hover:hover {
+  transition: 0.25s ease-in-out;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.45);
+}

@@ -2866,6 +2866,18 @@ input.tab:checked + .tab-content,
   border-radius: var(--rounded-box, 1rem);
 }
 
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-l {
+  border-left-width: 1px;
+}
+
 .border-opacity-50 {
   --tw-border-opacity: 0.5;
 }
