@@ -56,8 +56,8 @@
       </div>
       <div class="navbar-end">
         <a
-          class="tooltip tooltip-left tooltip-primary mr-5 text-primary"
-          data-tip="By Tanakorn Meesarp"
+          class="tooltip tooltip-left tooltip-warning mr-5 text-warning"
+          data-tip="This website didn't fully support mobile"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -120,10 +120,105 @@
     <br />
 
     <!-- content -->
-    <div class="hero-overlay"></div>
     <div
-      class="grid grid-cols-3 justify-items-center bg-base-200 py-10 pt-20 shadow-xl"
+      class="flex bg-base-200 pb-20 pt-20 shadow-xl"
+      style="justify-content: space-evenly"
     >
+      <div class="card bg-base-100 shadow-xl" style="width: 400px">
+        <figure>
+          <img
+            src="https://img.wongnai.com/p/800x0/2022/04/27/cd354519260f4c36ae273f781e3d3b34.jpg"
+            loading="lazy"
+            style="height: 300px"
+          />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">ทะเลหมู่เกาะสิมิลัน จ.พังงา</h2>
+          <div class="card-actions justify-end">
+            <button
+              class="text-shadow-2 btn btn-primary"
+              onclick="content_1.showModal()"
+            >
+              Visit Now!
+            </button>
+            <dialog id="content_1" class="modal modal-bottom sm:modal-middle">
+              <div class="modal-box">
+                <h3 class="text-center text-lg font-bold text-primary">
+                  ทะเลหมู่เกาะสิมิลัน
+                </h3>
+                <p class="py-4">
+                  <span>&zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;</span>
+                  หมู่เกาะสิมิลัน เป็นหมู่เกาะเล็กๆ ในทะเลอันดามันมี 9 เกาะ
+                  เรียงจากเหนือ มา ใต้ คือ เกาะหูยง เกาะปายัง
+                  เกาะปาหยันเกาะเมี่ยง เกาะปายู เกาะหัวกะโหลก เกาะสิมิลัน
+                  และเกาะบางู หมู่เกาะสิมิลัน
+                  ได้รับการยกย่องว่าเป็นหมู่เกาะที่มีความสวยงามทั้งบนบกและใต้น้ำ
+                  มีปะการังที่สวยงามหลายชนิด
+                </p>
+                <p class="py-1">
+                  ที่อยู่ : ตำบลลำแก่น อำเภอท้ายเหมือง จังหวัดพังงา
+                </p>
+                <p class="py-1">
+                  เปิดให้เข้าชม : 15 ตุลาคม-15 พฤษภาคม ของทุกปี
+                </p>
+                <p class="py-1">โทร : 0-7645-3272</p>
+                <div class="modal-action">
+                  <form method="dialog">
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button class="btn btn-error">Close</button>
+                  </form>
+                </div>
+              </div>
+            </dialog>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-base-100 shadow-xl" style="width: 400px">
+        <figure>
+          <img
+            src="https://img.wongnai.com/p/1600x0/2022/04/27/c2beafec8cf44f4097802a8697d2f51b.jpg"
+            loading="lazy"
+            style="height: 300px"
+          />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">ทะเลเกาะเหลาลาดิง จ.กระบี่</h2>
+          <div class="card-actions justify-end">
+            <button
+              class="text-shadow-2 btn btn-primary"
+              onclick="content_2.showModal()"
+            >
+              Visit Now!
+            </button>
+            <dialog id="content_2" class="modal modal-bottom sm:modal-middle">
+              <div class="modal-box">
+                <h3 class="text-center text-lg font-bold text-primary">
+                  ทะเลเกาะเหลาลาดิง
+                </h3>
+                <p class="py-4">
+                  <span>&zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;</span>
+                  เกาะเหลาลาดิง หรือ เกาะพาราไดซ์ เป็นเกาะที่มีขนาดไม่ใหญ่
+                  มีชายหาดเล็ก ๆ
+                  มีลักษณะเป็นเวิ้งอ่าวหลบอยู่ด้านในของภูเขาหินปูนสองฝั่ง
+                  ที่นี่จึงเงียบสงบ มีบรรยากาศส่วนตัวสุด ๆ
+                  เหมาะสำหรับคนที่อยากมานอนริมทะเล พักผ่อนกับธรรมชาติ
+                </p>
+                <p class="py-1">
+                  ที่อยู่ : เกาะเหลาลาดิง อำเภออ่าวลึก จังหวัดกระบี่
+                </p>
+                <p class="py-1">เปิดให้เข้าชม : ทุกวัน</p>
+                <p class="py-1">โทร : 0 7568 1096</p>
+                <div class="modal-action">
+                  <form method="dialog">
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button class="btn btn-error">Close</button>
+                  </form>
+                </div>
+              </div>
+            </dialog>
+          </div>
+        </div>
+      </div>
       <div class="card bg-base-100 shadow-xl" style="width: 400px">
         <figure>
           <img
@@ -135,57 +230,92 @@
         <div class="card-body">
           <h2 class="card-title">ทะเลเกาะทะลุ จ.ประจวบคีรีขันธ์</h2>
           <div class="card-actions justify-end">
-            <button class="text-shadow-2 btn btn-primary">Visit Now!</button>
-          </div>
-        </div>
-      </div>
-      <div class="card bg-base-100 shadow-xl" style="width: 400px">
-        <figure>
-          <img
-            src="https://ak-d.tripcdn.com/images/0104e120008fzat1k7EB0.jpg?proc=source%2Ftrip"
-            loading="lazy"
-            style="height: 300px"
-          />
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title">ทะเลเกาะราชาใหญ่ จ.ภูเก็ต</h2>
-          <div class="card-actions justify-end">
-            <button class="text-shadow-2 btn btn-primary">Visit Now!</button>
-          </div>
-        </div>
-      </div>
-      <div class="card bg-base-100 shadow-xl" style="width: 400px">
-        <figure>
-          <img
-            src="https://img.wongnai.com/p/800x0/2022/04/27/e5aefd798176439d8c63113398b4abe1.jpg"
-            loading="lazy"
-            style="height: 300px"
-          />
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title">ทะเลเกาะมุก จ.ตรัง</h2>
-          <div class="card-actions justify-end">
-            <button class="text-shadow-2 btn btn-primary">Visit Now!</button>
+            <button
+              class="text-shadow-2 btn btn-primary"
+              onclick="content_3.showModal()"
+            >
+              Visit Now!
+            </button>
+            <dialog id="content_3" class="modal modal-bottom sm:modal-middle">
+              <div class="modal-box">
+                <h3 class="text-center text-lg font-bold text-primary">
+                  ทะเลเกาะทะลุ
+                </h3>
+                <p class="py-4">
+                  <span>&zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;</span>
+                  เกาะทะลุเป็นส่วนหนึ่งของอุทยานแห่งชาติเขาแหลมหญ้า 
+                  หมู่เกาะเสม็ด อ.แกลง ระยอง เป็นเกาะที่ห่างจากฝั่งเพียงแค่
+                  15-20 นาที เท่านั้นโดยเรือสปีทโบ๊ท
+                  ดังนั้นการพาลูกไปด้วยเป็นเรื่องง่ายมาก เป็นเกาะที่ชายหาดสวย
+                  ขาว น้ำใส และปลาเยอะมาก
+                </p>
+                <p class="py-1">ที่อยู่ :  อำเภอแกลง จังหวัดระยอง</p>
+                <p class="py-1">เปิดให้เข้าชม : เปิดทุกวัน 08.00-18.00 น.</p>
+
+                <p class="py-1">โทร :  038 655 4201</p>
+                <div class="modal-action">
+                  <form method="dialog">
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button class="btn btn-error">Close</button>
+                  </form>
+                </div>
+              </div>
+            </dialog>
           </div>
         </div>
       </div>
     </div>
 
     <div
-      class="grid grid-cols-3 justify-items-center bg-base-200 py-10 shadow-xl"
+      class="flex bg-base-200 py-10 shadow-xl"
+      style="justify-content: space-evenly"
     >
       <div class="card bg-base-100 shadow-xl" style="width: 400px">
         <figure>
           <img
-            src="https://img.wongnai.com/p/800x0/2022/04/28/3bc05ca8be894484a693fbdb8e4dd82d.jpg"
+            src="https://img.wongnai.com/p/1600x0/2022/04/27/f6bead804f784dc0a8c087b5a79cbebd.jpg"
             loading="lazy"
             style="height: 300px"
           />
         </figure>
         <div class="card-body">
-          <h2 class="card-title">ทะเลเกาะทะลุ จ.ประจวบคีรีขันธ์</h2>
+          <h2 class="card-title">ทะเลเกาะหมาก จ.ตราด</h2>
           <div class="card-actions justify-end">
-            <button class="text-shadow-2 btn btn-primary">Visit Now!</button>
+            <button
+              class="text-shadow-2 btn btn-primary"
+              onclick="content_4.showModal()"
+            >
+              Visit Now!
+            </button>
+            <dialog id="content_4" class="modal modal-bottom sm:modal-middle">
+              <div class="modal-box">
+                <h3 class="text-center text-lg font-bold text-primary">
+                  ทะเลเกาะหมาก
+                </h3>
+                <p class="py-4">
+                  <span>&zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;</span>
+                  ไปทะเลตราดหากถามว่าเลือกไปเที่ยวเกาะไหนก่อนดี
+                  ก็คงแนะนำเกาะช้างเพราะไปง่าย
+                  แต่หากรู้สึกติดใจก็ไปต่อเกาะหมากกันเลยค่ะ
+                  ซึ่งเกาะหมากจะอยู่ตรงกลางระหว่างเกาะช้างกับเกาะกูด
+                  เป็นเกาะที่แม่ไข่ไปซ้ำหลายครั้งมีบาร์ริมทะเลที่เริ่ดมาก
+                  และราคาไม่แพง
+                </p>
+                <p class="py-1">
+                  ที่อยู่ : ตำบลเกาะหมาก ในอำเภอเกาะกูด จังหวัดตราด
+                </p>
+                <p class="py-1">
+                  เปิดให้เข้าชม : สามารถดูตารางเวลาเรือไปเกาะหมากได้จากบริษัทเรือที่ให้บริการ
+                </p>
+                <p class="py-1">โทร : 0 3959 7259</p>
+                <div class="modal-action">
+                  <form method="dialog">
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button class="btn btn-error">Close</button>
+                  </form>
+                </div>
+              </div>
+            </dialog>
           </div>
         </div>
       </div>
@@ -200,60 +330,97 @@
         <div class="card-body">
           <h2 class="card-title">ทะเลเกาะราชาใหญ่ จ.ภูเก็ต</h2>
           <div class="card-actions justify-end">
-            <button class="text-shadow-2 btn btn-primary">Visit Now!</button>
+            <button
+              class="text-shadow-2 btn btn-primary"
+              onclick="content_5.showModal()"
+            >
+              Visit Now!
+            </button>
+            <dialog id="content_5" class="modal modal-bottom sm:modal-middle">
+              <div class="modal-box">
+                <h3 class="text-center text-lg font-bold text-primary">
+                  ทะเลเกาะราชาใหญ่
+                </h3>
+                <p class="py-4">
+                  <span>&zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;</span>
+                  เกาะราชา แบ่งออกเป็น เกาะราชาใหญ่ และเกาะราชาน้อย
+                  เกาะราชาใหญ่เป็นเกาะที่มีหาดทรายขาวสะอาด
+                  มีหาดทางด้านตะวันตกอยู่ระหว่างหุบเขาเป็นรูปคล้าย
+                  เกือกม้าเรียกว่า อ่าวปะตก มีหาดทรายขาวละเอียด
+                  น้ำทะเลใสสะอาดลักษณะคล้ายทะเลแถบหมู่เกาะสิมิลัน
+                </p>
+                <p class="py-1">
+                  ที่อยู่ : ตำบลราไวย์ อำเภอเมืองภูเก็ต จังหวัดภูเก็ต
+                </p>
+                <p class="py-1">
+                  เปิดให้เข้าชม : สามารถเที่ยวชมได้ตามรอบเรือ
+                  บริษัททัวร์นำเที่ยว
+                </p>
+                <p class="py-1">โทร : -</p>
+                <div class="modal-action">
+                  <form method="dialog">
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button class="btn btn-error">Close</button>
+                  </form>
+                </div>
+              </div>
+            </dialog>
           </div>
         </div>
       </div>
       <div class="card bg-base-100 shadow-xl" style="width: 400px">
         <figure>
           <img
-            src="https://img.wongnai.com/p/800x0/2022/04/27/e5aefd798176439d8c63113398b4abe1.jpg"
+            src="https://img.wongnai.com/p/800x0/2022/04/28/13758b4c1af74b36b5a2a6091f999a84.jpg"
             loading="lazy"
             style="height: 300px"
           />
         </figure>
         <div class="card-body">
-          <h2 class="card-title">ทะเลเกาะมุก จ.ตรัง</h2>
+          <h2 class="card-title">ทะเลเกาะมันกลาง จ.ระยอง</h2>
           <div class="card-actions justify-end">
-            <button class="text-shadow-2 btn btn-primary">Visit Now!</button>
+            <button
+              class="text-shadow-2 btn btn-primary"
+              onclick="content_6.showModal()"
+            >
+              Visit Now!
+            </button>
+            <dialog id="content_6" class="modal modal-bottom sm:modal-middle">
+              <div class="modal-box">
+                <h3 class="text-center text-lg font-bold text-primary">
+                  ทะเลเกาะมันกลาง
+                </h3>
+                <p class="py-4">
+                  <span>&zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;</span>
+                  เกาะมันกลาง เป็นเกาะขนาดไม่ใหญ่มาก
+                  อยู่ถัดออกมาไม่ไกลจากเกาะมันใน
+                  จากเกาะมันในถึงเกาะมันกลางใช้เวลาแค่ 10 นาที เป็นเกาะเอกชน
+                  สามารถพักบนเกาะได้โดยติดต่อแพ็คเกจทัวร์จากบนฝั่ง
+                  บนเกาะมีที่พักอยู่เพียงแห่งเดียว คือ มันตาคีรี ไอส์แลนด์
+                  รีสอร์ท
+                </p>
+                <p class="py-1">ที่อยู่ : ตำบล กร่ำ อำเภอแกลง จังหวัดระยอง</p>
+                <p class="py-1">เปิดให้เข้าชม : ทุกวัน</p>
+                <p class="py-1">
+                  โทร : 08 7992 1999, 08 7921 7555, หรือ 0 3865 7232
+                </p>
+                <div class="modal-action">
+                  <form method="dialog">
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button class="btn btn-error">Close</button>
+                  </form>
+                </div>
+              </div>
+            </dialog>
           </div>
         </div>
       </div>
     </div>
 
     <div
-      class="grid grid-cols-3 justify-items-center bg-base-200 py-10 shadow-xl"
+      class="flex bg-base-200 py-10 shadow-xl"
+      style="justify-content: space-evenly"
     >
-      <div class="card bg-base-100 shadow-xl" style="width: 400px">
-        <figure>
-          <img
-            src="https://img.wongnai.com/p/800x0/2022/04/28/3bc05ca8be894484a693fbdb8e4dd82d.jpg"
-            loading="lazy"
-            style="height: 300px"
-          />
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title">ทะเลเกาะทะลุ จ.ประจวบคีรีขันธ์</h2>
-          <div class="card-actions justify-end">
-            <button class="text-shadow-2 btn btn-primary">Visit Now!</button>
-          </div>
-        </div>
-      </div>
-      <div class="card bg-base-100 shadow-xl" style="width: 400px">
-        <figure>
-          <img
-            src="https://ak-d.tripcdn.com/images/0104e120008fzat1k7EB0.jpg?proc=source%2Ftrip"
-            loading="lazy"
-            style="height: 300px"
-          />
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title">ทะเลเกาะราชาใหญ่ จ.ภูเก็ต</h2>
-          <div class="card-actions justify-end">
-            <button class="text-shadow-2 btn btn-primary">Visit Now!</button>
-          </div>
-        </div>
-      </div>
       <div class="card bg-base-100 shadow-xl" style="width: 400px">
         <figure>
           <img
@@ -265,7 +432,127 @@
         <div class="card-body">
           <h2 class="card-title">ทะเลเกาะมุก จ.ตรัง</h2>
           <div class="card-actions justify-end">
-            <button class="text-shadow-2 btn btn-primary">Visit Now!</button>
+            <button
+              class="text-shadow-2 btn btn-primary"
+              onclick="content_7.showModal()"
+            >
+              Visit Now!
+            </button>
+            <dialog id="content_7" class="modal modal-bottom sm:modal-middle">
+              <div class="modal-box">
+                <h3 class="text-center text-lg font-bold text-primary">
+                  ทะเลเกาะมุก
+                </h3>
+                <p class="py-4">
+                  <span>&zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;</span>
+                  เกาะมุกเป็นเกาะที่ใหญ่เป็นอันดับที่ 3 ของท้องทะเลตรัง แบ่งเป็น
+                  2 ฝั่ง คือ ชายฝั่งด้านตะวันตกซึ่งเป็นที่ตั้งของถ้ำมรกต
+                  ซึ่งฝั่งนี้จะไม่มีชายหาดและที่พักใดๆ และอีกฝั่ง คือ
+                  เกาะมุกฝั่งด้านตะวันออก เป็นที่ตั้งของหมู่บ้านชาวประมง
+                  มีรีสอร์ทที่พัก ร้านอาหาร สิ่งอำนวยความสะดวกต่างๆ
+                </p>
+                <p class="py-1">
+                  ที่อยู่ : เกาะมุก ตำบลเกาะลิบง อำเภอกันตัง จังหวัดตรัง
+                </p>
+                <p class="py-1">เปิดให้เข้าชม : ทุกวัน</p>
+                <p class="py-1">โทร : -</p>
+                <div class="modal-action">
+                  <form method="dialog">
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button class="btn btn-error">Close</button>
+                  </form>
+                </div>
+              </div>
+            </dialog>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-base-100 shadow-xl" style="width: 400px">
+        <figure>
+          <img
+            src="https://img.wongnai.com/p/800x0/2022/04/28/aace70d76e6040bbb7c0d73f01ac0096.jpg"
+            loading="lazy"
+            style="height: 300px"
+          />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">ทะเลเกาะพีพีดอน จ.กระบี่</h2>
+          <div class="card-actions justify-end">
+            <button
+              class="text-shadow-2 btn btn-primary"
+              onclick="content_8.showModal()"
+            >
+              Visit Now!
+            </button>
+            <dialog id="content_8" class="modal modal-bottom sm:modal-middle">
+              <div class="modal-box">
+                <h3 class="text-center text-lg font-bold text-primary">
+                  ทะเลเกาะพีพีดอน
+                </h3>
+                <p class="py-4">
+                  <span>&zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;</span>
+                  เกาะพีพีดอน เป็นส่วนหนึ่งของหมู่เกาะพีพี
+                  เป็นเกาะที่มีชื่อเสียงดิดอันดับโลก
+                  เป็นเกาะใหญ่ที่เป็นศูนย์กลางของเกาะพีพี ทั้งที่พัก ท่าเรือ
+                  ร้านอาหาร สิ่งอำนวยความสะดวก ทุกอย่างอยู่ที่เกาะนี้ทั้งหมด
+                </p>
+                <p class="py-1">
+                  ที่อยู่ : อ่าวนาง อำเภอเมืองกระบี่ จังหวัดกระบี่
+                </p>
+                <p class="py-1">เปิดให้เข้าชม : ทุกวัน</p>
+                <p class="py-1">โทร : -</p>
+                <div class="modal-action">
+                  <form method="dialog">
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button class="btn btn-error">Close</button>
+                  </form>
+                </div>
+              </div>
+            </dialog>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-base-100 shadow-xl" style="width: 400px">
+        <figure>
+          <img
+            src="https://img.wongnai.com/p/800x0/2022/04/28/ff65dd5253664706aeeea2e0ba4f924e.jpg"
+            loading="lazy"
+            style="height: 300px"
+          />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">ทะเลเกาะนางยวน จ.สุราษฎร์ธานี</h2>
+          <div class="card-actions justify-end">
+            <button
+              class="text-shadow-2 btn btn-primary"
+              onclick="content_9.showModal()"
+            >
+              Visit Now!
+            </button>
+            <dialog id="content_9" class="modal modal-bottom sm:modal-middle">
+              <div class="modal-box">
+                <h3 class="text-center text-lg font-bold text-primary">
+                  ทะเลเกาะนางยวน
+                </h3>
+                <p class="py-4">
+                  <span>&zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;</span>
+                  เกาะเล็กๆที่อยู่ทางทิศเหนือของเกาะเต่าเป็นเกาะสวรรค์แห่งการพักผ่อนที่ได้รับการยกย่องให้เป็น
+                  1 ใน 10 ของโลก เกาะนางยวน ประกอบด้วยเกาะเล็กๆ 3 เกาะ
+                  ถูกเชื่อมเข้าหากันด้วยสันทรายสีขาว ตัดกับน้ำทะเลสีฟ้าใส
+                  จนกลายเป็นอ่าวส่วนตัวถึง 3 อ่าว ซึ่งนับเป็นเอกลักษณ์อันโดดเด่น
+                  ของเกาะนางยวน
+                </p>
+                <p class="py-1">ที่อยู่ : อำเภอเกาะพงัน จังหวัดสุราษฎร์ธานี</p>
+                <p class="py-1">เปิดให้เข้าชม : ทุกวัน</p>
+                <p class="py-1">โทร : -</p>
+                <div class="modal-action">
+                  <form method="dialog">
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button class="btn btn-error">Close</button>
+                  </form>
+                </div>
+              </div>
+            </dialog>
           </div>
         </div>
       </div>
