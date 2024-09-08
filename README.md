@@ -1,1 +1,1 @@
-Tailwind CSS Mini project
+Another School Project
